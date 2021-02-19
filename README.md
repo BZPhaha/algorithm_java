@@ -15,8 +15,8 @@ K次方阶O(n^k):类似O(n²)
 线性阶O(n):占据的空间和n相关，int[] m = new int[n]  
 **各个排序算法**  
 名称	   最优	 平均 	最坏	 内存   稳定   
-冒泡排序	n 	n^2 	n^2	1	Yes  [冒泡排序算法地址]    
-插入排序	n	n^2	n^2	1	Yes  [插入排序算法地址]    
+冒泡排序	n 	n^2 	n^2	1	Yes  [冒泡算法地址](https://github.com/BZPhaha/algorithm_java/blob/main/src/com/bzp/algorithm/BubbleSort.java)   
+插入排序	n	n^2	n^2	1	Yes     [插入排序算法地址](https://github.com/BZPhaha/algorithm_java/blob/main/src/com/bzp/algorithm/InsertSort.java)    
 选择排序	n^2	n^2	n^2	1	No  
 堆排序	n log(n)	n log(n)	n log(n)	1	No  
 归并排序	n log(n)	n log(n)	n log(n)	n	Yes  
@@ -24,7 +24,3 @@ K次方阶O(n^k):类似O(n²)
 希尔排序	n log(n)	取决于差距序列	n (log(n))^2	1	No    
 
 :laughing:
-
-
-[冒泡算法地址]: https://github.com/BZPhaha/algorithm_java/blob/main/src/com/bzp/algorithm/BubbleSort.java
-[插入排序算法地址]: https://github.com/BZPhaha/algorithm_java/blob/main/src/com/bzp/algorithm/InsertSort.java
